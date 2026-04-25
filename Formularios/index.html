@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div>    
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre">
+        </div>
+        <div>
+          <label for="apellido">Apellido</label>
+            <input id="apellido" type="text" name="apellido">
+        </div>
+        <div>
+            
+            <label for="edad">Edad</label>
+            <input id="edad" type="number" name="edad" min="18" max="70">
+        </div>
+
+        <div>
+            <label for="text_area_mensaje">Mensaje</label>    
+            <textarea name="mensaje" id="text_area_mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+        <div>
+            <label for="password" >Password</label>
+            <input id="password" name="password" type="password">
+        </div>
+
+        <div>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        <div>
+            <label for="color">Color</label>
+                <input id="color" name="color" type="color">
+        </div>
+
+        <fieldset>
+            <legend>Genero</legend>
+            <input type="radio" name="genero" id="masculino" value="M">
+            <label for="masculino" >masculino</label>
+
+            <input type="radio" name="genero" id="femenino" value="F">
+            <label for="femenino">femenino</label>
+        </fieldset>
+    </form>
+</body>
+</html>
