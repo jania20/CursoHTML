@@ -22,6 +22,11 @@
             <label for="edad">Edad</label>
             <input id="edad" type="number" name="edad" min="18" max="70">
         </div>
+        
+        <div>
+        <label for="correo">Correo</label>
+        <input id="correo" type="email" required placeholder="usuario@ejemplo.com">
+        </div> 
 
         <div>
             <label for="text_area_mensaje">Mensaje</label>    
@@ -32,12 +37,12 @@
         </div>
         <div>
             <label for="password" >Password</label>
-            <input id="password" name="password" type="password">
+            <input id="password" name="password" type="password" required placeholder="Minimo 8 caracteres" minlenght="8">
         </div>
 
         <div>
             <label for="fecha">Fecha</label>
-            <input type="date" id="fecha" name="fecha">
+            <input type="date" id="fecha" name="fecha" min="2024-01-01" >
         </div>
         <div>
             <label for="color">Color</label>
